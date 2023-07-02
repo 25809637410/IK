@@ -48,6 +48,7 @@
           </div>
           <div class="swiper-button-prev swiperBtn"></div>
           <div class="swiper-button-next swiperBtn"></div>
+          <div class="swiper-pagination"></div>
 
         </div>
 
@@ -140,6 +141,8 @@
               </ul>
               <div class="swiper-button-next"></div>
               <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+
             </div>
             <div class="review_input">
               <div class="review_list">
@@ -361,9 +364,23 @@
         <div class="add_product_area">
           <p>추가 구성상품</p>
           <div class="add_wrap">
-            <a href="#!"><img src="/dimmer_04.299a67ce.jpeg" alt="dimmer_switch"></a>
+            <div class="add_swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide"><a href="#!">
+                    <img src="/dimmer_01.ff4e9351.jpeg" alt="dimmer_switch"></a></div>
+                <div class="swiper-slide"><a href="#!">
+                    <img src="/dimmer_02.b3bcc748.jpeg" alt="dimmer_switch"></a></div>
+                <div class="swiper-slide"><a href="#!">
+                    <img src="/dimmer_03.accc33e1.jpeg" alt="dimmer_switch"></a></div>
+                <div class="swiper-slide"><a href="#!">
+                    <img src="/dimmer_04.299a67ce.jpeg" alt="dimmer_switch"></a></div>
+              </div>
+
+              <div class="swiper-button-prev swiper_btn"></div>
+              <div class="swiper-button-next swiper_btn"></div>
+            </div>
             <div class="add_txt">
-              <span class="pop">IK Dimmer Switch Orange</span>
+              <span class="pop">IK Dimmer Switch</span>
               <p>20,000원</p>
             </div>
           </div>
@@ -429,7 +446,7 @@
 
         <div class="right_bottom accordion_menu">
           <div class="accordion">제품 문의 및 교환/반품 안내</div>
-          <div class="panel">
+          <div class="acco_content">
             <p>
               제품하자나 교환, 반품을 원하실 경우에는 고객 센터로 연락 주시면
               처리해 드리겠습니다. <br><br>
@@ -445,7 +462,7 @@
           </div>
 
           <div class="accordion">배송 안내</div>
-          <div class="panel">
+          <div class="acco_content">
             <p>
               오후 1시까지 입금확인 된 주문 건은 당일 발송(주말/공휴일 제외)이
               가능하며 이후 주문 건은 익일발송됩니다. 단, 주문 접수 후 조립하는
@@ -459,7 +476,7 @@
           </div>
 
           <div class="accordion">일광로틱</div>
-          <div class="panel">
+          <div class="acco_content">
             <p>
               CS center: 053-581-1076 / light@iklamp.co.kr <br><br>
               상담시간: 평일 9:00~16:00 (주말/공휴일은 휴무입니다.)
@@ -503,7 +520,7 @@
 
 
   <script>$(function () {
-  $('#header').load("header.html");
+  // $('#header').load("header.html");
   $('#footer').load("footer.html");
 });</script>
 </body>
